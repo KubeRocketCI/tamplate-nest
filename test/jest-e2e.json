@@ -1,0 +1,18 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "../",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/constants": "<rootDir>/src/constants",
+    "@app/controllers": "<rootDir>/src/controllers",
+    "@app/guards": "<rootDir>/src/guards",
+    "@app/models": "<rootDir>/src/models",
+    "@app/services": "<rootDir>/src/services",
+    "@app/utils": "<rootDir>/src/utils",
+    "@app/testing": "<rootDir>/src/testing"
+  }
+}
